@@ -1,0 +1,110 @@
+.jumbotron {
+
+    background: url("http://freenaturestock.s3.amazonaws.com/997.jpg") center center;
+    background-size: cover;
+
+    /*
+    background: url("http://freenaturestock.s3.amazonaws.com/997.jpg");
+    background-size: 100% 100%;
+*/
+    height: 460px;
+}
+
+.logoImg {
+    width: 75px;
+    height: 75px;
+}
+
+.featured {
+    color: white;
+}
+
+.featured h1 {
+    padding-top: 60px;
+}
+
+a.btn-default {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(145, 82, 58, 0.5);
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 160px;
+    margin-right: 50px;
+}
+
+.footer{
+    background: #eee;
+    font-size: 12px;
+    padding: 10px 0;
+    
+}
+
+a.btn-default:hover {
+    background-color: rgb(145, 82, 58);
+}
+
+.trial {
+    text-align: center;
+    padding: 20px 0 40px 0;
+    color: black;
+}
+
+.trial img{
+    margin: 20px;
+    height: 70px;
+    width: 200px;
+}
+
+@media(min-width: 480px) and (max-width:768px) {
+    .jumbotron {
+        height: 410px;
+        margin: 0;
+    }
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+    .featured h1 {
+        padding-top: 30px;
+    }
+    .featured p {
+        font-size: 17px;
+    }
+    .featured {
+        text-align: center;
+    }
+}
+
+@media(max-width:480px) {
+    .jumbotron {
+        height: 410px;
+
+    }
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+    .featured h1 {
+        padding-top: 10px;
+    }
+    .featured p,
+    .featured a {
+        font-size: 13px;
+    }
+
+    a.btn-default {
+        margin: 5px 0;
+    }
+
+    .featured {
+        text-align: center;
+    }
+    
+    .trial img{
+    margin: 8px;
+    height: 35px;
+    width: 100px;
+}
+
+}

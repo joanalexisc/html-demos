@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Fruit Slide Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable=yes">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/fruit.css">
+    <script src="js/fruit.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="lifePoints"></div>
+        <div id="score">
+            Score: <span id="scoreValue">0</span>
+        </div>
+
+        <div id="gameField">
+            <img id="fruitObject" class="fruit">
+        </div>
+
+        <div id="startReset">Start</div>
+
+        <div id="gameOver">
+            <P>Game Over!</P>
+            <p>Your score is <span id="finalScore">0</span>.</p>
+        </div>
+    </div>
+    <audio id="slideSound">
+        <source src="sounds/cut.mp3">
+        <source src="sounds/cut.ogg">
+    </audio>
+</body>
+
+</html>

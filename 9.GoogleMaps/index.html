@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Distance between Cities</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/maps.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <h1>Distance between cities App.</h1>
+            <p>This app will help you to calculate travelling distances.</p>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="From" class="col-xs-2 control-label">From:</label>
+                    <div class="col-xs-9">
+                        <input id="from" class="form-control" placeholder="Origin" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="To" class="col-xs-2 control-label">To:</label>
+                    <div class="col-xs-9">
+                        <input id="to" class="form-control" placeholder="Destination" required>
+                    </div>
+                </div>
+
+            </form>
+            <div class="col-xs-offset-2">
+                <button id="submit" class="btn btn-info btn-lg">Submit</button>
+            </div>
+
+            <!--                google maps doesn't work well with de button in the form-->
+
+            <div class="container-fluid">
+                <div id="googleMaps">
+                </div>
+                <div id="extraInfo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAR_TsOfkKthkw-wA6X1sZj_jCVhD2mQxI&libraries=places"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/maps.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+body{
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:  arvo, serif;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+}
+
+.navbar-inverse{
+    background: rgba(0,0,0,0.6);
+}
+
+/*
+.nav li a{
+    border: 1px solid red;
+}
+*/
+
+.nav li{
+    color: red;
+    font-size: 17px;
+    margin-right: 45px;
+    padding: 10px 0;
+}
+
+.nav li:hover, .nav li:active{
+    border-bottom: 1px solid #00FFB8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.jumbotron{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin:  0;
+    padding: 10;
+    letter-spacing: 2.5px;
+}
+
+.bodyImage{
+    height: 100px;
+    width: 100px;
+}
+
+.col-md-4{
+    text-align: center;
+    color: white;
+}
+
+#icons p{
+ font-size: 15px;   
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact .btn{
+    border: none;
+    background-color: rgba(0,255,184,0.5);
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 10px 70px;
+    margin-bottom: 100px;
+}
+
+.contact .btn:hover{
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+}
+
+.footer{
+    color: grey;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+@media(max-width:768px){
+    .bodyImage{
+        height: 70px;
+        width: 70px;
+    }
+}

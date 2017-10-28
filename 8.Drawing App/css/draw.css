@@ -1,0 +1,104 @@
+body{
+    background: url(../images/colour-pencils-450621_1920.jpg) center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+#header{
+    color: white;
+    font-size: 3em;
+    background: linear-gradient(cornflowerblue, deepskyblue);
+    height: 80px;
+    width: 400px;
+    margin: 10px auto;
+    line-height: 71px;
+    
+}
+
+.inputContainer{
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+#circle{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.input {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+#thicknessInput{
+    position: relative;
+}
+
+#container{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+/*    border: 7px solid rgba(122,174,229,0.5);*/
+    position: relative;
+}
+
+#lienzo{
+
+    background-color: white;
+    cursor: crosshair;
+}
+
+.buttons{
+    margin: 0 auto;
+    margin-top: 26px;
+    width: 399px;
+    height: auto;
+/*    border: 1px solid red;*/
+}
+
+.input2{
+    width: 133px;
+    color: #5BB4E7;
+    font-size: 1.3em;
+    float: left;
+}
+
+.button{
+    background-color: white;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.3);
+    position: relative;
+    
+}
+
+.buttonPressed{
+    background-color: red;
+    color: white;
+    top: 4px;
+    box-shadow: none;
+}
+
+.buttonPressed:hover{
+    background-color: darkred;
+}
+
+.button:hover{
+    color: white;
+    background-color: skyblue;
+}
+
+.button:active{
+    top: 4px;
+}

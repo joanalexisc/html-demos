@@ -1,0 +1,33 @@
+body{
+    background: url(../images/road-220058.jpg) center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Arvo', serif;
+}
+.jumbotron{
+    background-color:  transparent;
+    letter-spacing: 2.5px;
+    margin: 0;
+    padding: 10px;
+}
+
+.jumbotron p, .jumbotron h1{
+    text-align: center;
+}
+
+#googleMaps{
+    width: 100%;
+    height: 200px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+#extraInfo{
+/*    background-color: skyblue;*/
+    height: 100px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+

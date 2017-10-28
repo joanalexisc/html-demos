@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stop Watch</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="header">Stopwatch</h1>
+
+        <div id="lap" class="container"><span id="lapMinutes">00</span>:<span id="lapSeconds">00</span>:<span id="lapMiliseconds">00</span></div>
+        <div id="time" class="container"><span id="timeMinutes">00</span>:<span id="timeSeconds">00</span>:<span id="timeMiliseconds">00</span></div>
+
+        <div id="controlsContainer" class="row">
+            <div class="col-xs-2 col-xs-offset-4">
+                <div id="startButoon" class="control">Start</div>
+                <div id="stopButton" class="control">Stop</div>
+                <div id="resumeButton" class="control">Resume</div>
+            </div>
+
+            <div class="col-xs-2">
+                <div id="lapButton" class="control">Lap</div>
+                <div id="resetButton" class="control">Reset</div>
+            </div>
+        </div>
+        <div id="laps">
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stopwatch.js">
+        
+    </script>
+</body>
+</html>
